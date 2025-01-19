@@ -13,6 +13,6 @@ class NotaSeeder extends Seeder
      */
     public function run(): void
     {
-        TipoAporte::factory(10)->create();
+        Nota::factory(10)->create();
     }
 }
